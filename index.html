@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advanced JS HW3</title>
     <script type="module" crossorigin src="/goit-advancedjs-hw-03/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-Cz4yiyMt.js">
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/index-DbCZPOEm.css">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-B07T6_gy.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/index-Bq4MGxzX.css">
   </head>
   <body>
     <form class="form js-form">
-      <input type="text" id="pixabay-search" />
+      <input
+        type="text"
+        name="user_query"
+        id="pixabay-search"
+        placeholder="Search images"
+      />
       <button type="submit" data-start>Search</button>
     </form>
+
+    <ul class="gallery js-gallery"></ul>
+    <p class="not-found-text js-not-found-text"></p>
+    <div class="loader js-loader"></div>
 
   </body>
 </html>
