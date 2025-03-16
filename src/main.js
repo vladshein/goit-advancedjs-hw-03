@@ -1,6 +1,6 @@
 import iziToast from "izitoast";
-import { getPhotos } from "./pixabay-api";
-import { updateGallery } from "./render-functions.js";
+import { getPhotos } from "./js/pixabay-api.js";
+import { updateGallery } from "./js/render-functions.js";
 import SimpleLightbox from "simplelightbox";
 
 const refs = {
