@@ -9,9 +9,18 @@
   </head>
   <body>
     <form class="form js-form">
-      <input type="text" id="pixabay-search" />
+      <input
+        type="text"
+        name="user_query"
+        id="pixabay-search"
+        placeholder="Search images"
+      />
       <button type="submit" data-start>Search</button>
     </form>
+
+    <ul class="gallery js-gallery"></ul>
+    <p class="not-found-text js-not-found-text"></p>
+    <div class="loader js-loader"></div>
 
     <script type="module" src="./js/main.js"></script>
   </body>
