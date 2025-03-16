@@ -1,5 +1,4 @@
 // Описаний в документації
-import flatpickr from "flatpickr";
 import iziToast from "izitoast";
 
 let selectedDate = "";
